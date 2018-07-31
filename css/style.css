@@ -1,0 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arimo, sans-serif;
+   line-height: 1.5;
+}
+
+header {
+   background-color: rgb(200, 200, 200);
+}
+
+main {
+   background-color: rgb(210, 210, 210);
+}
+
+footer {
+   background-color: rgb(220, 220, 220);
+}
+
+.content {
+   padding: 24px 0;
+   width: 960px;
+   margin: auto;
+}
