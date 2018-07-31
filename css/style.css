@@ -1,4 +1,54 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,300italic,700&amp;subset=latin,latin-ext");
+
 * {
    margin: 0;
    padding: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+   margin: 24px 0;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+#container {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   width: 1200px;
+}
+
+.item {
+   position: relative;
+   width: 50%;
+   line-height: 0;
+}
+
+.item--image {
+   width: 100%;
+}
+
+.item--heading {
+   position: absolute;
+   top: 24px;
+   margin-right: 48px;
+   background-color: rgba(255, 255, 255, .9);
+   padding: 12px 24px;
+   line-height: 1.2;
+}
+
+.item--caption {
+   position: absolute;
+   bottom: 24px;
+   left: 0;
+   background-color: rgba(255, 255, 255, .9);
+   padding: 12px;
+   line-height: 1;
 }
